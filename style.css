@@ -1,0 +1,199 @@
+body {
+  --bege: #e6e0d6;
+  --laranja-claro: #f39326;
+  --laranja-escuro: #e47a00;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+section[id] {
+  scroll-margin-top: 100px;
+}
+input[type="checkbox"] {
+  border: 2px solid var(--laranja-claro);
+  box-shadow: none;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.navbar-toggler {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important;
+  position: relative;
+  width: 25px;
+  height: 2px;
+  background-color: transparent;
+}
+
+.navbar-toggler-icon::before,
+.navbar-toggler-icon::after,
+.navbar-toggler-icon {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  left: 0;
+  transition: all 0.3s ease;
+}
+
+.navbar-toggler-icon::before {
+  top: -7px;
+}
+
+.navbar-toggler-icon::after {
+  top: 7px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end !important;
+}
+
+.navbar-nav .nav-link {
+  transition: color 0.3s ease, border-bottom 0.3s ease;
+}
+
+.navbar-nav .nav-link.active {
+  color: var(--laranja-escuro);
+}
+
+.navbar .nav-link.active {
+  color: #f39326;
+}
+input[type="checkbox"]:checked,
+input[type="checkbox"]:focus {
+  background-color: var(--laranja-claro);
+  border-color: var(--laranja-claro);
+  box-shadow: none;
+  outline: none;
+}
+
+.banners {
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.724);
+}
+
+.banners-titulo {
+  color: white;
+  padding: 30px;
+  --bs-bg-opacity: 0.2;
+}
+
+.hero-banner {
+  position: relative;
+  background: url("./assets/foto-hero-banner.jpg") center/cover no-repeat;
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.hero-banner .overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.55));
+  z-index: 1;
+}
+
+.hero-banner .z-2 {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-banner h1 {
+  letter-spacing: 1px;
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+}
+
+.hero-banner p {
+  font-size: 1.2rem;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+}
+
+.hero-banner .btn-primary {
+  background-color: var(--laranja-escuro);
+  border: none;
+  border-radius: 50px;
+  padding: 0.8rem 2rem;
+  transition: all 0.3s ease;
+}
+
+.hero-banner .btn-primary:hover {
+  background-color: var(--laranja-claro);
+  transform: translateY(-2px);
+}
+
+.banner-2 {
+  background-image: url(./assets/foto-banner-2.jpg);
+}
+
+.banner-3 {
+  background-image: url(./assets/foto-banner-3.jpg);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+}
+.input-range::-webkit-slider-thumb,
+footer {
+  background-color: var(--laranja-claro);
+}
+
+/* Cards */
+
+.img-fixed {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Botões */
+
+.btn-primary {
+  background-color: var(--laranja-escuro);
+  border: none;
+}
+.btn-primary:hover {
+  background-color: var(--laranja-claro);
+}
+
+.botao-padrao {
+  background-color: var(--laranja-escuro);
+  color: black;
+}
+
+.botao-padrao:hover {
+  background-color: var(--laranja-claro);
+}
