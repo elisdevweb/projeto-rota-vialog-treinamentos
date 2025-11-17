@@ -1,6 +1,8 @@
 # Rota Vialog Treinamentos
 
-Site institucional responsivo voltado para <b>cursos e capacitações</b> na <b>área de Logística</b> <br> O projeto oferece uma apresentação dos cursos e serviços da empresa. Cada seção foi organizada para facilitar o entendimento do usuário, destacando informações essenciais sobre capacitações na área de Logística de forma objetiva e acessível.
+Site institucional fictício voltado para <b>cursos e capacitações</b> na <b>área de Logística</b>
+
+Cada seção foi organizada para facilitar o entendimento do usuário, destacando informações essenciais sobre capacitações na área de Logística de forma objetiva e acessível.
 
 <b>Acesse o projeto:</b> https://elisdevweb.github.io/projeto-rota-vialog-treinamentos/
 
