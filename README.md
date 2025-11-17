@@ -1,8 +1,8 @@
-# 🚚 Rota Vialog Treinamentos
+# Rota Vialog Treinamentos
 
 Site institucional responsivo desenvolvido com Bootstrap 5, voltado para <b>cursos e capacitações</b> na <b>área de Logística</b> <br>
 
-👉 <b>Acesse aqui:</b> https://elisdevweb.github.io/projeto-rota-vialog-treinamentos/
+<b>Acesse aqui:</b> https://elisdevweb.github.io/projeto-rota-vialog-treinamentos/
 
 ##  Funcionalidades
 - Estrutura organizada com Bootstrap 5
